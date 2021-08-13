@@ -1,0 +1,65 @@
+.standard {
+    background: url("accueil.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #f2f2f2;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #1DC1FF;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #1DC1FF;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #1DC1FF;
+    color: white;
+  }
+
+  .texte{
+    background-color: #f2f2f2;
+    margin-top: 650px;
+  }
+
+  .texte p {
+    padding: 8px 14px;
+  }
+
+  .texte h1 {
+    padding: 4px 4px;
+    color: #1DC1FF;
+  }
+
+  .footer {
+    background-color: #1DC1FF;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .footer p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+  }
